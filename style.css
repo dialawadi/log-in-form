@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(120deg,#c38091,#305694);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: #c9bdcb;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+    
+
+}
+@media (max-width: 390px) {
+    .center {
+        width: 100%;
+        
+    }
+    
+}
+
+.center h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+    background-color: #00264d;
+    color: white;
+    border-radius: 50%;
+    width: 30%;
+    margin: 10px auto;
+    position: relative;
+    top: -65px;
+
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+.center form .txt_field {
+    position: relative;
+    margin: 30px 0;
+
+    
+}
+
+.center form .txt_field input {
+    width: 80%;
+    padding: 5px 5px;
+    height: 40px;
+    background-color: #365373;
+    border: none;
+    outline: none;
+    margin-left: 49px;
+    color: white;
+    font-size: 18px;
+    
+
+}
+.center form .txt_field span {
+    position: absolute;
+    background-color: #00264d;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+.center form .txt_field span i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    
+
+}
+.center form .txt_field input::placeholder {
+    color: #8d9db4;
+    font-size: 18px;
+
+}
+
+
+.pass {
+    margin:  0 0 20px;
+    color: #00264d;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pass p:last-child {
+    cursor: pointer;
+    font-style: italic;
+
+}
+.pass p:last-child:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    left: -21px;
+    top: 23px;
+    accent-color:#00264d;
+}
+
+
+
+input[type="submit"] {
+    width: 80%;
+    height: 50px;
+    border: none;
+    background-color: #c9bdcb;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #00264d;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 384%);
+    
+}
+
+input[type="submit"]:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.5s;
+
+}
+
+
+
+
+
